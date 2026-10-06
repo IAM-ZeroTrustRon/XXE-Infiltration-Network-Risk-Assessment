@@ -1,83 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
-<rect width="1000" height="800" fill="#fff"/>
-<style>text{font-family:Arial,sans-serif;fill:#172b3a} .title{font-size:26px;font-weight:bold}.label{font-size:17px}.risk{font-size:18px;font-weight:bold}</style>
-<text x="45" y="45" class="title">XXE Infiltration — Risk Heat Map</text>
-<text x="45" y="77" class="label">Estimated untreated business risk • October 5, 2026 • Training scenario</text>
-<rect x="180" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="190" y="499" class="label">1</text>
-<rect x="320" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="330" y="499" class="label">2</text>
-<rect x="460" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="470" y="499" class="label">3</text>
-<rect x="600" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="610" y="499" class="label">4</text>
-<rect x="740" y="475" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
-<text x="750" y="499" class="label">5</text>
-<rect x="180" y="385" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="190" y="409" class="label">2</text>
-<rect x="320" y="385" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="330" y="409" class="label">4</text>
-<rect x="460" y="385" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
-<text x="470" y="409" class="label">6</text>
-<rect x="600" y="385" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
-<text x="610" y="409" class="label">8</text>
-<rect x="740" y="385" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
-<text x="750" y="409" class="label">10</text>
-<rect x="180" y="295" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="190" y="319" class="label">3</text>
-<rect x="320" y="295" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
-<text x="330" y="319" class="label">6</text>
-<rect x="460" y="295" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
-<text x="470" y="319" class="label">9</text>
-<text x="529" y="354" text-anchor="middle" class="risk">R05</text>
-<rect x="600" y="295" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
-<text x="610" y="319" class="label">12</text>
-<text x="669" y="354" text-anchor="middle" class="risk">R03</text>
-<rect x="740" y="295" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
-<text x="750" y="319" class="label">15</text>
-<rect x="180" y="205" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
-<text x="190" y="229" class="label">4</text>
-<rect x="320" y="205" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
-<text x="330" y="229" class="label">8</text>
-<rect x="460" y="205" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
-<text x="470" y="229" class="label">12</text>
-<rect x="600" y="205" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
-<text x="610" y="229" class="label">16</text>
-<text x="669" y="264" text-anchor="middle" class="risk">R01, R02</text>
-<rect x="740" y="205" width="138" height="88" fill="#f3b6b6" stroke="#fff"/>
-<text x="750" y="229" class="label">20</text>
-<rect x="180" y="115" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
-<text x="190" y="139" class="label">5</text>
-<rect x="320" y="115" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
-<text x="330" y="139" class="label">10</text>
-<rect x="460" y="115" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
-<text x="470" y="139" class="label">15</text>
-<rect x="600" y="115" width="138" height="88" fill="#f3b6b6" stroke="#fff"/>
-<text x="610" y="139" class="label">20</text>
-<text x="669" y="174" text-anchor="middle" class="risk">R04</text>
-<rect x="740" y="115" width="138" height="88" fill="#f3b6b6" stroke="#fff"/>
-<text x="750" y="139" class="label">25</text>
-<text x="162" y="525" text-anchor="end" class="label">1</text>
-<text x="162" y="435" text-anchor="end" class="label">2</text>
-<text x="162" y="345" text-anchor="end" class="label">3</text>
-<text x="162" y="255" text-anchor="end" class="label">4</text>
-<text x="162" y="165" text-anchor="end" class="label">5</text>
-<text x="249" y="590" text-anchor="middle" class="label">1</text>
-<text x="389" y="590" text-anchor="middle" class="label">2</text>
-<text x="529" y="590" text-anchor="middle" class="label">3</text>
-<text x="669" y="590" text-anchor="middle" class="label">4</text>
-<text x="809" y="590" text-anchor="middle" class="label">5</text>
-<text x="530" y="625" text-anchor="middle" class="label">Business impact →</text>
-<text x="55" y="340" transform="rotate(-90 55 340)" text-anchor="middle" class="label">Likelihood →</text>
-<rect x="45" y="655" width="20" height="20" fill="#cce5d5"/>
-<text x="73" y="672" class="label">Low 1–4</text>
-<rect x="280" y="655" width="20" height="20" fill="#fff0ba"/>
-<text x="308" y="672" class="label">Moderate 5–9</text>
-<rect x="515" y="655" width="20" height="20" fill="#ffd4a8"/>
-<text x="543" y="672" class="label">High 10–16</text>
-<rect x="750" y="655" width="20" height="20" fill="#f3b6b6"/>
-<text x="778" y="672" class="label">Very High 17–25</text>
-<text x="45" y="718" class="label">Scores are analyst estimates, not probabilities, CVSS or measured losses.</text>
-<text x="45" y="746" class="label">R05 is an assurance gap; missing audit evidence is not proof of missing logging.</text>
-<text x="45" y="774" class="label">Residual risk: unassessed. No remediation has been implemented or verified.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1120" viewBox="0 0 1600 1120" role="img" aria-labelledby="title desc">
+<title id="title">XXE incident risk priorities</title><desc id="desc">Five untreated risks: one very high, three high and one moderate. Chart shows estimated likelihood of continued or repeated harm versus business impact. Action priorities and evidence limits are listed alongside.</desc>
+<rect x="0" y="0" width="1600" height="1120" fill="#f5f7fb"/>
+<rect x="0" y="0" width="1600" height="150" fill="#172b46"/>
+<text x="48" y="67.80000000000001" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#ffffff">Where should management act first?</text>
+<text x="48" y="114.5" font-family="Arial,sans-serif" font-size="25" font-weight="400" fill="#dce5f2">XXE Infiltration | Estimated untreated risk | Training case study</text>
+<text x="48" y="201.3" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#9d2434">1 VERY HIGH</text>
+<text x="330" y="201.3" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#864310">3 HIGH</text>
+<text x="540" y="201.3" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#725700">1 MODERATE</text>
+<text x="1010" y="201.3" font-family="Arial,sans-serif" font-size="27" font-weight="700" fill="#172b46">ACTION PRIORITIES</text>
+<text x="48" y="259.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">Chance of continued or repeated harm</text>
+<text x="48" y="340.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Highly likely</text>
+<rect x="210" y="295" width="137" height="101" fill="#fff0b5"/>
+<text x="220" y="321.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">5</text>
+<rect x="350" y="295" width="137" height="101" fill="#ffdbb5"/>
+<text x="360" y="321.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">10</text>
+<rect x="490" y="295" width="137" height="101" fill="#ffdbb5"/>
+<text x="500" y="321.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">15</text>
+<rect x="630" y="295" width="137" height="101" fill="#f5b9c1"/>
+<text x="640" y="321.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">20</text>
+<text x="645" y="356.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">R04</text>
+<rect x="770" y="295" width="137" height="101" fill="#f5b9c1"/>
+<text x="780" y="321.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">25</text>
+<text x="48" y="444.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Likely</text>
+<rect x="210" y="399" width="137" height="101" fill="#deeee7"/>
+<text x="220" y="425.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">4</text>
+<rect x="350" y="399" width="137" height="101" fill="#fff0b5"/>
+<text x="360" y="425.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">8</text>
+<rect x="490" y="399" width="137" height="101" fill="#ffdbb5"/>
+<text x="500" y="425.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">12</text>
+<rect x="630" y="399" width="137" height="101" fill="#ffdbb5"/>
+<text x="640" y="425.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">16</text>
+<text x="645" y="460.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">R01</text>
+<text x="645" y="488.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">R02</text>
+<rect x="770" y="399" width="137" height="101" fill="#f5b9c1"/>
+<text x="780" y="425.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">20</text>
+<text x="48" y="548.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Plausible</text>
+<rect x="210" y="503" width="137" height="101" fill="#deeee7"/>
+<text x="220" y="529.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">3</text>
+<rect x="350" y="503" width="137" height="101" fill="#fff0b5"/>
+<text x="360" y="529.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">6</text>
+<rect x="490" y="503" width="137" height="101" fill="#fff0b5"/>
+<text x="500" y="529.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">9</text>
+<text x="505" y="564.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">R05</text>
+<rect x="630" y="503" width="137" height="101" fill="#ffdbb5"/>
+<text x="640" y="529.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">12</text>
+<text x="645" y="564.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">R03</text>
+<rect x="770" y="503" width="137" height="101" fill="#ffdbb5"/>
+<text x="780" y="529.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">15</text>
+<text x="48" y="652.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Unlikely</text>
+<rect x="210" y="607" width="137" height="101" fill="#deeee7"/>
+<text x="220" y="633.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">2</text>
+<rect x="350" y="607" width="137" height="101" fill="#deeee7"/>
+<text x="360" y="633.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">4</text>
+<rect x="490" y="607" width="137" height="101" fill="#fff0b5"/>
+<text x="500" y="633.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">6</text>
+<rect x="630" y="607" width="137" height="101" fill="#fff0b5"/>
+<text x="640" y="633.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">8</text>
+<rect x="770" y="607" width="137" height="101" fill="#ffdbb5"/>
+<text x="780" y="633.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">10</text>
+<text x="48" y="756.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Rare</text>
+<rect x="210" y="711" width="137" height="101" fill="#deeee7"/>
+<text x="220" y="737.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">1</text>
+<rect x="350" y="711" width="137" height="101" fill="#deeee7"/>
+<text x="360" y="737.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">2</text>
+<rect x="490" y="711" width="137" height="101" fill="#deeee7"/>
+<text x="500" y="737.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">3</text>
+<rect x="630" y="711" width="137" height="101" fill="#deeee7"/>
+<text x="640" y="737.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">4</text>
+<rect x="770" y="711" width="137" height="101" fill="#fff0b5"/>
+<text x="780" y="737.1" font-family="Arial,sans-serif" font-size="19" font-weight="400" fill="#485366">5</text>
+<text x="219" y="853.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Negligible</text>
+<text x="359" y="853.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Limited</text>
+<text x="499" y="853.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Material</text>
+<text x="639" y="853.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Major</text>
+<text x="779" y="853.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">Severe</text>
+<text x="320" y="903.4" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#172b46">Potential business impact →</text>
+<rect x="48" y="937" width="20" height="20" fill="#deeee7"/>
+<text x="77" y="950.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Low 1–4</text>
+<rect x="273" y="937" width="20" height="20" fill="#fff0b5"/>
+<text x="302" y="950.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Moderate 5–9</text>
+<rect x="498" y="937" width="20" height="20" fill="#ffdbb5"/>
+<text x="527" y="950.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">High 10–16</text>
+<rect x="723" y="937" width="20" height="20" fill="#f5b9c1"/>
+<text x="752" y="950.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Very high 17–25</text>
+<rect x="990" y="237" width="562" height="158" fill="#ffffff"/>
+<rect x="990" y="237" width="7" height="158" fill="#9d2434"/>
+<text x="1014" y="270.9" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#9d2434">R04 • VERY HIGH • 20/25</text>
+<text x="1014" y="307.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">Unauthorized remote commands</text>
+<text x="1014" y="343.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Confirmed execution as the web-service account.</text>
+<text x="1014" y="371.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Contain within 4 hours; validate trusted recovery.</text>
+<rect x="990" y="410" width="562" height="158" fill="#ffffff"/>
+<rect x="990" y="410" width="7" height="158" fill="#864310"/>
+<text x="1014" y="443.9" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#864310">R01 + R02 • HIGH • 16/25</text>
+<text x="1014" y="480.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">File disclosure and exposed secret</text>
+<text x="1014" y="516.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Rotate the secret within 4 hours.</text>
+<text x="1014" y="544.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Fix XML handling before return to service.</text>
+<rect x="990" y="583" width="562" height="158" fill="#ffffff"/>
+<rect x="990" y="583" width="7" height="158" fill="#864310"/>
+<text x="1014" y="616.9" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#864310">R03 • HIGH • 12/25</text>
+<text x="1014" y="653.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">Database reachable by probing source</text>
+<text x="1014" y="689.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Restrict access to approved systems.</text>
+<text x="1014" y="717.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Review within 1 day; test before service returns.</text>
+<rect x="990" y="756" width="562" height="158" fill="#ffffff"/>
+<rect x="990" y="756" width="7" height="158" fill="#725700"/>
+<text x="1014" y="789.9" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#725700">R05 • MODERATE • 9/25</text>
+<text x="1014" y="826.5" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#172b46">Database access outcome unknown</text>
+<text x="1014" y="862.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Review server audit records within 1 day.</text>
+<text x="1014" y="890.9" font-family="Arial,sans-serif" font-size="21" font-weight="400" fill="#172b46">Encrypted traffic does not prove login success.</text>
+<text x="1010" y="966.0" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172b46">Targets are proposed from response authorization.</text>
+<rect x="0" y="992" width="1600" height="128" fill="#e8edf5"/>
+<text x="48" y="1032.7" font-family="Arial,sans-serif" font-size="23" font-weight="400" fill="#172b46">How to read this: risk score = likelihood × impact. Ratings are analyst estimates, not probabilities.</text>
+<text x="48" y="1068.7" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#172b46">No remediation performed. Remaining risk cannot be rated until fixes are implemented and verified.</text>
+<text x="48" y="1101.0" font-family="Arial,sans-serif" font-size="20" font-weight="400" fill="#172b46">R05 is an evidence gap, not proof of missing logging. Assessment: Ron Richardson | October 5, 2026</text>
 </svg>
