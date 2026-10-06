@@ -17,4 +17,4 @@ Authorize evidence preservation and isolation of the affected service, rotation 
 ## Reporting boundary
 Report confirmed credential disclosure and web-service execution separately from suspected database compromise. Preserve the distinction between an earlier remote-resource XML request and later successful shell use; this chronology does not alone prove the deployment path. No production incident, executed remediation or regulatory determination is represented by this portfolio exercise.
 
-[Control plan](GRC-IAM-ASSESSMENT.md) · [Evidence timeline](EVIDENCE-TIMELINE.md)
+[Risk register & remediation plan](RISK-REGISTER-REMEDIATION-PLAN.md) · [Evidence timeline](EVIDENCE-TIMELINE.md)

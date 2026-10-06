@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+<rect width="1000" height="800" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#172b3a} .title{font-size:26px;font-weight:bold}.label{font-size:17px}.risk{font-size:18px;font-weight:bold}</style>
+<text x="45" y="45" class="title">XXE Infiltration — Risk Heat Map</text>
+<text x="45" y="77" class="label">Estimated untreated business risk • October 5, 2026 • Training scenario</text>
+<rect x="180" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="190" y="499" class="label">1</text>
+<rect x="320" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="330" y="499" class="label">2</text>
+<rect x="460" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="470" y="499" class="label">3</text>
+<rect x="600" y="475" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="610" y="499" class="label">4</text>
+<rect x="740" y="475" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
+<text x="750" y="499" class="label">5</text>
+<rect x="180" y="385" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="190" y="409" class="label">2</text>
+<rect x="320" y="385" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="330" y="409" class="label">4</text>
+<rect x="460" y="385" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
+<text x="470" y="409" class="label">6</text>
+<rect x="600" y="385" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
+<text x="610" y="409" class="label">8</text>
+<rect x="740" y="385" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
+<text x="750" y="409" class="label">10</text>
+<rect x="180" y="295" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="190" y="319" class="label">3</text>
+<rect x="320" y="295" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
+<text x="330" y="319" class="label">6</text>
+<rect x="460" y="295" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
+<text x="470" y="319" class="label">9</text>
+<text x="529" y="354" text-anchor="middle" class="risk">R05</text>
+<rect x="600" y="295" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
+<text x="610" y="319" class="label">12</text>
+<text x="669" y="354" text-anchor="middle" class="risk">R03</text>
+<rect x="740" y="295" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
+<text x="750" y="319" class="label">15</text>
+<rect x="180" y="205" width="138" height="88" fill="#cce5d5" stroke="#fff"/>
+<text x="190" y="229" class="label">4</text>
+<rect x="320" y="205" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
+<text x="330" y="229" class="label">8</text>
+<rect x="460" y="205" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
+<text x="470" y="229" class="label">12</text>
+<rect x="600" y="205" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
+<text x="610" y="229" class="label">16</text>
+<text x="669" y="264" text-anchor="middle" class="risk">R01, R02</text>
+<rect x="740" y="205" width="138" height="88" fill="#f3b6b6" stroke="#fff"/>
+<text x="750" y="229" class="label">20</text>
+<rect x="180" y="115" width="138" height="88" fill="#fff0ba" stroke="#fff"/>
+<text x="190" y="139" class="label">5</text>
+<rect x="320" y="115" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
+<text x="330" y="139" class="label">10</text>
+<rect x="460" y="115" width="138" height="88" fill="#ffd4a8" stroke="#fff"/>
+<text x="470" y="139" class="label">15</text>
+<rect x="600" y="115" width="138" height="88" fill="#f3b6b6" stroke="#fff"/>
+<text x="610" y="139" class="label">20</text>
+<text x="669" y="174" text-anchor="middle" class="risk">R04</text>
+<rect x="740" y="115" width="138" height="88" fill="#f3b6b6" stroke="#fff"/>
+<text x="750" y="139" class="label">25</text>
+<text x="162" y="525" text-anchor="end" class="label">1</text>
+<text x="162" y="435" text-anchor="end" class="label">2</text>
+<text x="162" y="345" text-anchor="end" class="label">3</text>
+<text x="162" y="255" text-anchor="end" class="label">4</text>
+<text x="162" y="165" text-anchor="end" class="label">5</text>
+<text x="249" y="590" text-anchor="middle" class="label">1</text>
+<text x="389" y="590" text-anchor="middle" class="label">2</text>
+<text x="529" y="590" text-anchor="middle" class="label">3</text>
+<text x="669" y="590" text-anchor="middle" class="label">4</text>
+<text x="809" y="590" text-anchor="middle" class="label">5</text>
+<text x="530" y="625" text-anchor="middle" class="label">Business impact →</text>
+<text x="55" y="340" transform="rotate(-90 55 340)" text-anchor="middle" class="label">Likelihood →</text>
+<rect x="45" y="655" width="20" height="20" fill="#cce5d5"/>
+<text x="73" y="672" class="label">Low 1–4</text>
+<rect x="280" y="655" width="20" height="20" fill="#fff0ba"/>
+<text x="308" y="672" class="label">Moderate 5–9</text>
+<rect x="515" y="655" width="20" height="20" fill="#ffd4a8"/>
+<text x="543" y="672" class="label">High 10–16</text>
+<rect x="750" y="655" width="20" height="20" fill="#f3b6b6"/>
+<text x="778" y="672" class="label">Very High 17–25</text>
+<text x="45" y="718" class="label">Scores are analyst estimates, not probabilities, CVSS or measured losses.</text>
+<text x="45" y="746" class="label">R05 is an assurance gap; missing audit evidence is not proof of missing logging.</text>
+<text x="45" y="774" class="label">Residual risk: unassessed. No remediation has been implemented or verified.</text>
+</svg>

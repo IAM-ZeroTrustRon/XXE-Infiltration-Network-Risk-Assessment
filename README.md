@@ -11,7 +11,7 @@ I investigated an XML external entity attack in Wireshark, correlated credential
 |---|---|
 | [Investigation walkthrough](docs/INVESTIGATION-WRITEUP.md) | Reproducible analysis and evidence interpretation; teaching rather than an answer sheet |
 | [Evidence and timeline](docs/EVIDENCE-TIMELINE.md) | Packet/stream references, screenshots and confidence limits |
-| [GRC / IAM assessment](docs/GRC-IAM-ASSESSMENT.md) | Proposed control treatments, accountable functions and closure tests |
+| [Risk register & remediation plan](docs/RISK-REGISTER-REMEDIATION-PLAN.md) | Likelihood–impact heat map, risk ratings, proposed owners/targets and closure tests |
 | [Executive brief](docs/EXECUTIVE-BRIEF.md) | Business impact, decisions and response priorities |
 
 ## Evidence preview
