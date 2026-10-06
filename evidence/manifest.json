@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01-reconnaissance.png",
+    "sha256": "beaa1bf804bb2ed164fc2ee92bb4851dbcea56516d50bfe5608a4623317ae22c",
+    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+  },
+  {
+    "file": "02-xml-file-read-attempt.png",
+    "sha256": "98be81f25db85bd9e6e43efe7232958c34d06199aa9aa29c02e8f71706199329",
+    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+  },
+  {
+    "file": "03-configuration-disclosure.png",
+    "sha256": "332170cb8a97495a82965334bf6893a562fc7ad9f72c00c630b90308a3e733eb",
+    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+  },
+  {
+    "file": "04-database-tls-connection.png",
+    "sha256": "bd60b332c06a47cb53e1da46a1df5b388c20332b90366f9bf81d0d74e08da6a2",
+    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+  },
+  {
+    "file": "05-remote-resource-reference.png",
+    "sha256": "5bf0825d72d1022f516617967560988e333a8926047128b4d05eb12f480d2ef2",
+    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+  },
+  {
+    "file": "06-minimal-xml-response.png",
+    "sha256": "31b6c4cd7cf8188922d063fb782befb6430cf3013fcd42475f18a4c1cdbdf6fa",
+    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+  },
+  {
+    "file": "07-webshell-command-result.png",
+    "sha256": "9d2952e74456ff71375c1c6682edfe8ba58f2de98d9e4d618e0b45e83d586137",
+    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+  }
+]

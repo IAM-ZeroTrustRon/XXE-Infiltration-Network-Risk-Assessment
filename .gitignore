@@ -1,0 +1,7 @@
+.env
+.env.*
+*.pcap
+*.pcapng
+~$*
+Thumbs.db
+.DS_Store
