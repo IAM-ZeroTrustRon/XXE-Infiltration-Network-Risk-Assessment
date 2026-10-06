@@ -36,4 +36,4 @@ Contains simulated historical lab credentials. Preserve as evidence only; do not
 ## Provenance and unavailable artifacts
 Screenshots were supplied by Ron during this chat. [Manifest](../evidence/manifest.json) records SHA-256 hashes of the received files. These are screenshot hashes, not PCAP hashes. No full capture or server/DB audit logs were independently reviewed in this workspace.
 
-[Achievement link supplied by Ron](https://cyberdefenders.org/blueteam-ctf-challenges/achievements/ronrichardsonit/xxe-infiltration/) is the completion reference; automated retrieval of the achievement page did not succeed, so no independently fetched completion badge is claimed.
+[Achievement link](https://cyberdefenders.org/blueteam-ctf-challenges/achievements/ronrichardsonit/xxe-infiltration/) supplied by Ron. On October 5, 2026, the authenticated lab page independently displayed 7/7 questions and 100% Completed. No separate achievement badge image was downloaded.

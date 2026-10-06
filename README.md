@@ -25,3 +25,6 @@ A command request receives a web-service account name, supporting remote executi
 This is a completed simulated lab, not a production incident or healthcare engagement. Screenshots were captured during guided analysis with the official walkthrough as a reference. Findings below are grounded in the supplied screenshots; the original PCAP was not supplied to this workspace for independent reanalysis. No real patient data, root compromise, database theft or performed remediation is claimed.
 
 The screenshots include historical, simulated lab credentials. They are not live credentials; no real credentials are included. Full training answers are not repeated as a question-by-question submission. [Screenshot hashes](evidence/manifest.json) protect the provenance of the files received, not authenticity of the original capture.
+
+## Publication status
+Public GitHub repository published October 5, 2026. The investigation write-up was submitted through CyberDefenders’ XXE Infiltration write-up form; the site confirmed successful submission and pending review. Submission is not acceptance or endorsement. The authenticated lab page confirmed 7/7 questions and 100% completion.
