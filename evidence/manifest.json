@@ -1,8 +1,8 @@
 [
   {
     "file": "01-reconnaissance.png",
-    "sha256": "beaa1bf804bb2ed164fc2ee92bb4851dbcea56516d50bfe5608a4623317ae22c",
-    "source": "User-supplied Wireshark screenshot; original PCAP not supplied to this workspace"
+    "sha256": "1911ef1327e0ed189faf86db47f546f9e5cc89d7093da75dab9d6ab75dfb6ebc",
+    "source": "User-supplied wider Wireshark screenshot (codex-clipboard-e2e119c8-7efb-468b-a2dc-de6525949c12.png); replaced truncated view October 6, 2026; original PCAP not supplied"
   },
   {
     "file": "02-xml-file-read-attempt.png",

@@ -27,7 +27,7 @@ text(48,237,'Chance of continued or repeated harm',25,bold=True)
 colors=['#deeee7','#fff0b5','#ffdbb5','#f5b9c1']
 def col(score):return colors[0 if score<=4 else 1 if score<=9 else 2 if score<=16 else 3]
 x0,y0,cw,ch=210,295,140,104
-labels={ (4,4):['R01 XML file disclosure','R02 Exposed secret'], (3,4):['R03 Database exposure'], (5,4):['R04 Remote commands'], (3,3):['R05 Evidence gap'] }
+labels={ (4,4):['R01 + R02','Files +','secrets'], (3,4):['R03','Database','exposure'], (5,4):['R04','Remote','commands'], (3,3):['R05','Evidence','gap'] }
 for l in range(5,0,-1):
     yy=y0+(5-l)*ch
     text(48,yy+25,{5:'Highly likely',4:'Likely',3:'Plausible',2:'Unlikely',1:'Rare'}[l],23,bold=True)
@@ -36,8 +36,7 @@ for l in range(5,0,-1):
         box(xx,yy,cw-3,ch-3,col(l*impact))
         text(xx+10,yy+9,str(l*impact),19,'#485366')
         for j,label in enumerate(labels.get((l,impact),[])):
-            # Keep descriptive labels in the key; IDs remain legible in crowded cells.
-            text(xx+15,yy+39+j*28,label.split(' ')[0],25,bold=True)
+            text(xx+10,yy+34+j*22,label,20,bold=True)
 for i,label in enumerate(['Negligible','Limited','Material','Major','Severe']):text(x0+i*cw+9,833,label,23,bold=True)
 text(320,880,'Potential business impact →',26,bold=True)
 for j,(label,c) in enumerate(zip(['Low 1–4','Moderate 5–9','High 10–16','Very high 17–25'],colors)):

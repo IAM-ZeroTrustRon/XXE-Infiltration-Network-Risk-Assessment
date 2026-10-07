@@ -14,23 +14,30 @@ Historical incident dates are from the training capture, not the date of this as
 ## Screenshot exhibits
 
 ### E01 — Reachable server ports
+Server replies show source ports 80 and 3306. This establishes reachable services; SYN-ACK packets alone do not establish malicious scanning. On October 6, 2026, the narrow screenshot was replaced with the wider original supplied during the investigation, improving visibility of the port and packet details.
 ![Reconnaissance](../evidence/01-reconnaissance.png)
 
 ### E02 — Initial local-file request
+The request references `/etc/passwd`; the response shows `Content-Length: 0`. The screenshot supports an attempted read, not successful disclosure.
 ![XML attempt](../evidence/02-xml-file-read-attempt.png)
 
 ### E03 — Configuration returned by server
+The response body exposes database configuration. `pageturner` is the database name; `webuser` is the database account. This is disclosure evidence, not proof of login.
 ![Configuration disclosure](../evidence/03-configuration-disclosure.png)
 Contains simulated historical lab credentials. Preserve as evidence only; do not use them against real systems.
 
 ### E04 — TLS database session
+Stream 10463 shows a database connection followed by TLS negotiation. The displayed blank-user “Login Request” does not establish a successful authenticated session.
 ![Database TLS](../evidence/04-database-tls-connection.png)
 
 ### E05/E06 — Remote reference and minimal response
+**E05 — Request:** The XML references a remote PHP resource and a Base64-read wrapper. The request alone does not prove a web shell was installed.
 ![Remote reference](../evidence/05-remote-resource-reference.png)
+**E06 — Partial response capture:** This small screenshot shows the HTTP headers, `Content-Length: 22`, and an XML declaration. It has no Wireshark frame/stream identifier visible; its association with E05 comes from the supplied investigation sequence. It does not independently establish file creation or execution.
 ![Minimal response](../evidence/06-minimal-xml-response.png)
 
 ### E07 — Command result
+The request `cmd=whoami` receives `www-data`. This confirms execution as the web-service account, without proving administrator access or how the endpoint was installed.
 ![Command execution](../evidence/07-webshell-command-result.png)
 
 ## Provenance and unavailable artifacts

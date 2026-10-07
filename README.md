@@ -14,12 +14,10 @@ I investigated an XML external entity attack in Wireshark, correlated credential
 | [Risk register & remediation plan](docs/RISK-REGISTER-REMEDIATION-PLAN.md) | Likelihood–impact heat map, risk ratings, proposed owners/targets and closure tests |
 | [Executive brief](docs/EXECUTIVE-BRIEF.md) | Business impact, decisions and response priorities |
 
-## Evidence preview
-![Database connection transitions to TLS](evidence/04-database-tls-connection.png)
-A connection to the database follows the disclosure, but encrypted application traffic does not independently prove a successful login.
+## Start with the management decision
+Read the [risk heat map and treatment priorities](docs/RISK-REGISTER-REMEDIATION-PLAN.md#risk-heat-map) for a stakeholder view. The [PNG download](assets/risk-heat-map.png) is suitable for a presentation or LinkedIn attachment.
 
-![Web-shell command result](evidence/07-webshell-command-result.png)
-A command request receives a web-service account name, supporting remote execution without establishing administrator access.
+All seven investigation screenshots appear once in the [evidence gallery](docs/EVIDENCE-TIMELINE.md#screenshot-exhibits), with observations and limits beside each exhibit. The walkthrough explains the investigation method; the risk register tracks treatment and closure requirements.
 
 ## Scope
 This is a completed simulated lab, not a production incident or healthcare engagement. Screenshots were captured during guided analysis with the official walkthrough as a reference. Findings below are grounded in the supplied screenshots; the original PCAP was not supplied to this workspace for independent reanalysis. No real patient data, root compromise, database theft or performed remediation is claimed.
